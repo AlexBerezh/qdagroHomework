@@ -1,0 +1,534 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+#header-box {
+    background-image: url('../img/wheat.jpg');
+    background-position: top left;
+    background-color: #fbf9fa;
+    background-repeat: no-repeat;
+    background-size: 40vw;
+    padding-bottom: 8vw;
+}
+
+nav {
+    display: grid;
+    justify-content: right;
+    padding-right: 2.5vw;
+    padding-top: 1vw;
+}
+
+#navigation-box ul {
+    display: grid;
+    gap: 6.65vw;
+    grid-template-columns: repeat(6, auto);
+    list-style-type: none;
+}
+
+#navigation-box ul a {
+    font-size: 1.6vw;
+    font-weight: 300;
+    color: #000;
+    text-decoration: none;
+}
+
+#header-text {
+    display: grid;
+    width: 98vw;
+    padding-left: 40vw;
+    padding-top: 6vw;
+}
+ 
+#header-text h1 {
+    font-size: 2.6vw;
+    font-weight: 300;
+    text-align: left;
+}
+
+#header-text h1 span {
+    color: #e2ba7b;
+    font-weight: 600;
+}
+
+#header-form {
+    display: grid;
+    justify-content: center;
+    padding-top: 2vw;
+    padding-right: 3.2vw;
+}
+
+#header-form form button {
+    font-size: 1.1vw;
+    background-color: transparent;
+    border: 2px;
+    border-style: none solid;
+    border-color: #65aa44;
+    padding: 0.9vw 5vw;
+}
+
+#header-form form button:hover {
+    cursor: pointer;
+}
+
+#group-of-companies, #what-do-we-offer, #the-purchase-prices, #offer-benefits, #our-news {
+    padding-left: 5vw;
+}
+
+#group-of-companies {
+    background-color: #fbf9fa;
+    padding-top: 1.1vw;
+}
+
+h2 {
+    width: 96%;
+    padding-left: 0.9vw;
+    padding-bottom: 0.5vw;
+    border-color: #65aa44;
+    border-style: none none solid solid;
+    border-left-width: 8px;
+    border-bottom-width: 1px;
+    font-weight: 400;
+    font-size: 2.1vw;
+}
+
+h2 ~ p {
+    padding-top: 0.9vw;
+    font-size: 1.04vw;
+    font-weight: 300;
+}
+
+#qd-companies-box {
+    padding-top: 1vw;
+    display: grid;
+    grid-template-columns: 30vw 30vw 32vw;
+}
+
+.qd-companies-group-item:nth-last-child(1) {
+    padding-right: 2vw;
+}
+
+.qd-companies-group-item h3 {
+    color: #65aa44;
+    font-weight: bold;
+    font-size: 1.9vw;
+}
+
+.qd-companies-group-item p {
+    padding-top: 1vw;
+    font-weight: 300;
+    padding-bottom: 3vw;
+}
+
+.first-group-item {
+    padding-right: 3vw;
+}
+
+.second-group-item {
+    padding-left: 1.8vw;
+    padding-right: 2vw;
+}
+
+.third-group-item {
+    padding-left: 3.2vw;
+}
+
+#what-do-we-offer {
+    padding-top: 1.7vw;
+}
+
+h2 ~ p {
+    padding-right: 4vw;
+}
+
+.offer-list {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    list-style-type: none;
+}
+
+.offer-list li a {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    margin-right: 8vw;
+}
+
+.offer-list li a p {
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+
+#the-purchase-prices {
+    padding-top: 1.5vw;
+    background-color: #fbf9fa;
+}
+
+table {
+    padding-top: 1vw;
+    border-spacing: 0;
+    width: 90vw;
+    height: 13vw;
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+th, td {
+    padding-top: 0.5vw;
+    border: 2px solid #e2ba7b;
+    height: 2.6vw;
+    vertical-align: center;
+}
+
+th {
+    font-weight: 500;
+}
+
+caption {
+    padding-top: 1.5vw;
+    caption-side: bottom;
+    text-align: left;
+    font-style: italic;
+    font-size: 1vw;
+    padding-bottom: 3vw;
+}
+
+#offer-benefits {
+    padding-top: 1.5vw;
+} 
+
+.offer-benefits-list {
+    padding-top: 1vw;
+    padding-left: 2.5vw;
+}
+
+.offer-benefits-list li {
+    font-weight: 300;
+}
+
+.offer-benefits-list li::marker {
+    color: #e2ba7b;
+}
+
+#our-news {
+    margin-top: 3.5vw;
+    padding-top: 1.5vw;
+    background-color: #fbf9fa;
+    padding-bottom: 2vw;
+}
+
+.news-box {
+    padding-top: 2vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3vw;
+    width: 90vw;
+}
+
+.news-box-item {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: auto auto;
+    box-shadow: 0px 0px 12px 0px #D3D3D3;
+    padding: 1vw 1vw;
+}
+
+.news-box-item-img img {
+    height: 8.5vw;
+    width: 6.5vw;
+}
+
+.news-box-item-text h4 {
+    font-weight: 500;
+}
+
+.news-box-item-text h4 ~ p:first-of-type {
+    font-style: italic;
+    color: #808080;
+}
+
+.news-box-item-text h4 ~ p:nth-of-type(2) {
+    font-weight: 300;
+}
+
+#footer-box {
+    display: grid;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    grid-template-columns: 5vw 2fr 2fr 2fr;
+    background-color: #f5f5f5;
+}
+
+.represent, .main-office, .represent-switz {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vw;
+}
+
+.represent p, .main-office p, .represent-switz p {
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+.contacts h3 {
+    padding-bottom: 2vw;
+    font-weight: bold;
+} 
+
+.contacts ul {
+    list-style-type: none;
+}
+
+.contacts ul li {
+    padding-bottom: 1.5vw;
+}
+
+.contacts ul li img {
+    width: 2vw;
+}
+
+.represent {
+    padding-left: 2vw;
+}
+
+@media (max-width: 991px) {
+    #header-box { 
+        background-size: 60vw;
+        padding-bottom: 8vw;
+    }
+
+    #header-text h1 {
+        padding-top: 6vw;
+        font-size: 4vw;
+    }
+
+    #header-text h1 span {
+        font-weight: 400;
+    }
+
+    #header-form form {
+        padding-left: 4vw;
+    }
+
+    #header-form form button {
+        font-size: 2vw;
+    }
+
+    #navigation-box nav {
+        padding-right: 10vw;
+    }
+
+    #navigation-box nav ul li {
+        width: 5vw;
+    }
+
+    #navigation-box nav ul li a {
+        font-size: 2vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    h2 ~ p {
+        font-size: 1.8vw;
+    }
+
+    .qd-companies-group-item h3 {
+        font-size: 2.8vw;
+    }
+
+    .qd-companies-group-item p {
+        font-size: 1.8vw;
+    }
+
+    .offer-list {
+        grid-template-columns: 20vw 20vw;
+        column-gap: 25vw;
+        row-gap: 1vw;
+    }
+
+    .offer-list li a p {
+        padding-left: 2vw;
+        font-size: 2vw;
+    }
+
+    table {
+        height: 30vw;
+    }
+
+    th, td {
+        font-size: 1.5vw;
+        word-wrap: break-word;
+    }
+
+    #offer-benefits {
+        width: 95vw;
+    }
+
+    #offer-benefits .offer-benefits-list {
+        padding-left: 5vw;
+    }
+
+    .news-box {
+        grid-template-columns: auto;
+    }
+
+    .news-box-item img {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .news-box-item-text {
+        padding-left: 2vw;
+    }
+
+    .news-box-item-text h4 ~ p:first-of-type {
+        padding-bottom: 3vw;
+    }
+
+    #footer-box {
+        grid-template-columns: 90vw;
+    }
+
+    .represent-switz .footer-box-header br {
+        display: none;
+    }
+
+    .contacts h3 {
+        padding-bottom: 0;
+    }
+
+    .contacts ul {
+        display: grid;
+        grid-template-columns: repeat(3, 3vw);
+    }
+
+    .contacts, .main-office, .represent-switz {
+        padding-left: 2vw;
+    }
+
+    .represent p, .main-office p, .represent-switz p {
+        font-size: 1.8vw;
+    }
+
+    .represent p, .main-office p, .represent-switz p:nth-of-type(2) {
+        padding-bottom: 2vw;
+    }
+
+    .represent-switz p {
+        padding-right: 23vw;
+    }
+
+    .represent p {
+        padding-left: 14vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #header-box {
+        background-size: 70vw;
+        padding-bottom: 8vw;
+    }
+
+    nav {
+        justify-content: center;
+        padding-left: 20vw;
+    }
+
+    #navigation-box ul {
+        grid-template-columns: repeat(3, 22vw);
+        grid-template-rows: auto auto;
+        column-gap: 10vw;
+        row-gap: 5vw;
+    }
+
+    #header-text {
+        padding-left: 0;
+    }
+
+    #header-text h1 {
+        text-align: center;
+    }
+
+    #navigation-box nav ul li {
+        width: 22vw;
+    }
+
+    #navigation-box nav ul li a {
+        font-weight: 400;
+        font-size: 3vw;
+    }
+
+    #header-form form {
+        padding-top: 2vw;
+    }
+
+    #header-form form button {
+        font-size: 3vw;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+    }
+
+    h2 ~ p {
+        font-size: 2.5vw;
+    }
+
+    #qd-companies-box {
+        grid-template-columns: 90vw;
+    }
+
+    #qd-companies-box p {
+        font-size: 2.4vw;
+    }
+
+    .second-group-item, .third-group-item {
+        padding-left: 0;
+    }
+
+    .offer-list {
+        grid-template-columns: 20vw;
+    }
+
+    .offer-list li a p {
+        padding-left: 7vw;
+        font-size: 3vw;
+    }
+
+    #the-purchase-prices {
+        display: none;
+    }
+
+    .contacts ul {
+        padding-left: 1vw;
+        grid-template-columns: repeat(3, 6vw);
+    }
+
+    .contacts ul li img {
+        width: 4vw;
+    }
+
+    .represent p, .main-office p, .represent-switz p {
+        font-size: 2.5vw;
+    }
+
+    .represent p {
+        padding-left: 4vw;
+    }
+
+    .main-office p {
+        padding-left: 3vw;
+    }
+}
